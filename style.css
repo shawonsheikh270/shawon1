@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tex-left{
+  text-align: left;
+}
+.text-center{
+text-align: center;
+}
+.text-right{
+text-align: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+
+}
+.right{
+    float: right;
+}
+.maxh{
+    max-width: 1300px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body,h1,h2,h3,p,span,b,strong{
+    font-family: 'Merriweather', serif;
+    color: #000;
+}
+.header-section{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    
+  
+}
+
+
+
+.header-mune{
+    width: 60%;
+    
+}
+.header-logo {
+    width: 30%;
+   
+}
+.header-botton{
+    width: 10%;
+   
+}
+.header-logo img{
+    width: 41px;
+    float: left;
+    margin: 5px;
+    margin-right: 16px;
+}
+.header-logo span{
+    font-size: 22px;
+    line-height: 44px;
+}
+
+
+.mainmenu ul{
+    list-style: none;
+    line-height: 51px;
+}
+.mainmenu ul li{
+       display: inline-block;
+    line-height: 20px;
+    padding: 10px 20px;
+   
+}
+.mainmenu ul li a{
+    transition: .3s;
+}
+.mainmenu ul li a:hover{
+ color: #6278df;
+}
+a.hbt{
+    color: #6278df;
+    border: 1px solid #6278df;
+    padding: 10px 20px;
+    margin-top: 2px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: .3s;
+}
+.hbt:hover{
+    background-color:#6278df ;
+    color: #ffffff;
+    box-shadow: 1px 1px 9px #ddd;
+}
+.banner-section{
+    background-image: url(./img/background3.jpg);
+    padding: 150px;
+    text-align: center;
+    background-position: center;
+}
+.banner-section h1{
+    
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.defolt-btn1{
+    padding: 20px 25px;
+    margin-top: 19px;
+    background-color:#6278df ;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: .4s;
+    box-shadow: 1px 1px 6px #000;
+}
+.defolt-btn2{
+    padding: 20px 25px;
+    margin-top: 19px;
+    background-color: #fff;
+    color: gray;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: .4s;
+    box-shadow: 1px 1px 8px #000;
+}
+.banner-main{
+    margin-bottom: 50px;
+}
+.banner-text{
+    margin-top: 50px;
+}
+
+.banner-section{
+
+    position: relative;
+    z-index: 1;
+}
+
+.banner-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 40, 40,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.defolt-btn1:hover{
+    background-color: #000; 
+    color: #fff;
+}
+.defolt-btn2:hover{
+    background-color: #000; 
+    color: #fff;
+}
+.content-section{
+    margin-bottom: 50px;
+}
+.live{
+    padding: 60px 0;
+    font-size: 20px;
+}
+
+.item-left{
+
+  display: inline-block;
+  padding: 10px 20px;
+  transition: .5s;
+ 
+    
+}
+.item-left:hover{
+    box-shadow: 1px 1px 10px #d8dae6;
+}
+.item-right{
+    display: inline-block;
+    padding: 10px 20px;
+    transition: .5s;
+}
+.item-right:hover{
+    box-shadow: 1px 1px 10px #d8dae6;
+    
+}
+.item-scetion{
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.tiem-c{
+    background-color: rgba(98, 120, 223, .2);
+    padding: 50px 0;
+    margin-top: -5px;
+    
+}
+.item-d{
+    background-color: rgba(98, 120, 223, .2);
+    padding: 50px 0;
+    margin-top: -5px;
+}
+
+.tiem-c h2{
+    margin-bottom: 40px;
+}
+
+.item-d h2{
+    margin-bottom: 40px;
+}
+.tiem-c a{
+    color: #6278df ;
+    transition: .4s;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.item-d a{
+    color: #6278df ;
+    transition: .4s;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.item-d a:hover{
+    box-shadow: 1px 1px 9px #6278df;
+    
+    
+}
+.tiem-c a:hover{
+    box-shadow: 1px 1px 9px #6278df;
+   
+   
+}
+
+
+.video-left{
+    width: 40%;
+    margin-left: 121px;
+}
+.video-right{
+    width: 48%;
+    line-height: 60px;
+    margin-top: 80px;
+}
+.videooo{
+    margin-top: 50px;
+}
+.video-section{
+    padding: 50px;
+    background-color: rgba(98, 120, 223, .1);
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.fotter{
+    padding-top: 50px;
+}
